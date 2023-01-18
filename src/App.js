@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './Style.scss';
+import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import Main from './components/Main'
+import Contact from './components/Contact'
+import Write from './components/Write'
+import ReducerContext from './ReducerContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ReducerContext>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/write" element={<Write/>}/>
+        </Routes>
+      </BrowserRouter>
+    </ReducerContext>
   );
 }
 

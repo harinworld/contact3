@@ -1,0 +1,68 @@
+.App{
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(223, 255, 109);
+}
+.main-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+.Call-logo{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 60px;
+    position: absolute;
+    left: 120px;
+}
+.btn1{
+    width: 100px;
+    height: 45px;
+    background-color: #fff;
+    margin-top: 250px;
+    position: absolute;
+    left: 60px;
+    border: 1px solid gray;
+}
+.btn2{
+    width: 100px;
+    height: 45px;
+    background-color: #fff;
+    margin-top: 250px;
+    position: absolute;
+    left: 180px;
+    border: 1px solid gray;
+}
+.quest{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 161);
+    border: none;
+}
+.list-box{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    width: 240px;
+    height: 40px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+.list-item1{
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 10px;
+}
+.list-item3{
+    width: 30px;
+    height: 30px;
+    left: 230px;
+    position: absolute;
+}
