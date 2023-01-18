@@ -14,7 +14,7 @@ const Write = () => {
 
         <input type="text" value={text} onChange={(e)=>setText(e.target.value)}/>
         <button onClick={()=>{dispatch({type:'plus',value:text, id:Date.now()})}}>
-            <Link to="/contact"> 저장. </Link>
+            <Link to="/contact"> 저장 </Link>
         </button>
     </div>
   )
